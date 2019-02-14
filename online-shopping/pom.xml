@@ -16,6 +16,14 @@
 
 	<dependencies>
 
+		<!-- Linked backend -->
+
+		<dependency>
+			<groupId>com.mentor</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 		<!-- JUNIT -->
 
 		<dependency>
@@ -59,7 +67,6 @@
 					<source>1.8</source>
 					<target>1.8</target>
 				</configuration>
-
 			</plugin>
 		</plugins>
 
