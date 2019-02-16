@@ -15,7 +15,7 @@
 		base-package="com.mentor.onlineshopping.controller" />
 		
 	<context:component-scan
-		base-package="com.mentor.shoppingbackend.daoImpl" />
+		base-package="com.mentor.shoppingbackend" />
 
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
